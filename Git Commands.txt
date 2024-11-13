@@ -1,10 +1,14 @@
-git --version
-
-git init
-git add .
-
-git remote add origin https://github.com/ramansharma95/MorningDevops.git
-git push origin master
+		>>>>  git --version  <<<<
+>>> create a repository in git hub
+>>> copy the ssh or http
+>>> open the git bash in your local machine where you are push file loacted
+>>> git init
+>>> git status  ** file is in red colour that means it's in working area **
+>>> git add .
+>>> git status ** filr turns into green means it's s in staging area **
+>>> git commit -m "message"
+>>> git remote add origin https://github.com/ramansharma95/MorningDevops.git
+>>> git push origin master
 ------Revert back the changes
 1. git checkout --file   to revert back the changes for the working directory
    eg make the changes of a file say 1.txt and it will show as the untracked file..Now you want to revert back these changes then write the command
